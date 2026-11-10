@@ -39,7 +39,7 @@ function init(){for(const [id,key]of [['pageTitle','title'],['subtitle','subtitl
 if(typeof installNov2==='function')installNov2();
 if(typeof installNov3==='function')installNov3();
 if(typeof installNov5==='function')installNov5();
-if(AUDIT_DATE==='2026-11-09')initNov9();else init();
+if(AUDIT_DATE==='2026-11-10')initNov10();else if(AUDIT_DATE==='2026-11-09')initNov9();else init();
 
 if(AUDIT_DATE==='2026-10-29')document.getElementById('ghostResults').previousElementSibling.textContent='鬼接触后心控';
 
